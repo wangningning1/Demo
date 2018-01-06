@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/phonenum"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_edittext_layout_height"
+        android:padding="10dp"
+        android:text="手机号:"
+        android:textColor="@color/login_edittext_color"
+        android:textSize="@dimen/login_edittext_text_size"
+        android:inputType="number"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/yanzhengnum"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_edittext_layout_height"
+        android:layout_margin="0dp"
+        android:padding="10dp"
+        android:text="验证码:"
+        android:textColor="@color/login_edittext_color"
+        android:textSize="@dimen/login_edittext_text_size"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/newpassw"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_edittext_layout_height"
+        android:layout_margin="0dp"
+        android:padding="10dp"
+        android:text="新密码:"
+        android:textColor="@color/login_edittext_color"
+        android:textSize="@dimen/login_edittext_text_size"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/menu_1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="135dp"
+        android:background="#0000cf"
+        android:text="修改"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+</LinearLayout>
+
+
