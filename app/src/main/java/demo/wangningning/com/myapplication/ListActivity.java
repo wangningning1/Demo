@@ -27,7 +27,7 @@ public class ListActivity extends AppCompatActivity {
 
         MyRecyclerAdapter recycleAdapter = new MyRecyclerAdapter(ListActivity.this, intiData());
 
-        GridLayoutManager layoutManager = new GridLayoutManager(this,3);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(OrientationHelper.VERTICAL);//设置为垂直布局，这也是默认的
 
         recyclerView.setLayoutManager(layoutManager);//设置布局管理器

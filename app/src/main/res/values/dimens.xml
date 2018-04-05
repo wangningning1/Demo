@@ -2,5 +2,10 @@
 <resources>
     <dimen name="login_edittext_text_size">25sp</dimen>
     <dimen name="login_edittext_layout_height">60dp</dimen>
+    <dimen name="input_edittext_layout_height">200dp</dimen>
+    <dimen name="input_edittext_layout_margin">10dp</dimen>
+    <dimen name="input_button_layout_margin">10dp</dimen>
+    <dimen name="input_button_text_size">19sp</dimen>
+    <dimen name="input_unknownname_text_size">12sp</dimen>
 
 </resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_edittext_layout_height"
+        android:layout_margin="@dimen/input_edittext_layout_margin"
+        android:background="@drawable/bg_edittext_normal"
+        android:gravity="clip_vertical"
+        android:hint="@string/inputtext"
+        android:maxLines="10"
+        android:selectAllOnFocus="true"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="@dimen/input_button_text_size" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/input_edittext_layout_margin">
+
+        <TextView
+            android:id="@+id/textview_content_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/anonymous_publish" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/input_button_layout_margin"
+        android:background="@color/grey"
+        android:text="@string/commit_pray"
+        android:textSize="@dimen/input_button_text_size" />
+
+</LinearLayout>

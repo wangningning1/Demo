@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="inputtext_name">我要祈祷</string>
+    <string name="inputtext">输入祈祷内容：</string>
+    <string name="commit_pray">提交代祷内容</string>
+    <string name="anonymous_publish">匿名发布</string>
 
 </resources>
